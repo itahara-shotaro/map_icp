@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>map_icp</name>
+  <version>0.1.0</version>
+  <description>ICP alignment of per-robot Fast-LIO maps to a leader map, publishing the world-to-world TF.</description>
+  <maintainer email="itahara-shotaro@ynl.t.u-tokyo.ac.jp">Shotaro Itahara</maintainer>
+  <license>BSD-3-Clause</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-open3d</exec_depend>
+  <exec_depend>python3-pip</exec_depend>
+  <export/>
+</package>
